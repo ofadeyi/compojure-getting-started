@@ -6,7 +6,7 @@
                  [compojure "1.5.1"]
                  [ring/ring-defaults "0.2.1"]]
   :plugins [[lein-ring "0.9.7"]]
-  :ring {:handler compojure-getting-started.handler/app}
+  :ring {:handler compojure-getting-started.destructuring/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                         [ring/ring-mock "0.3.0"]]}})
