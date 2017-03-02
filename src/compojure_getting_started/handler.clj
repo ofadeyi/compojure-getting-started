@@ -1,7 +1,6 @@
 (ns compojure-getting-started.handler
   (:require [compojure.core :refer :all]
             [compojure.route :as route]
-            [compojure.coercions :refer [as-int]]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
 
 ;; Getting Started
